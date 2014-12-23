@@ -12,6 +12,7 @@ define(['angular', 'app'], function(angular, app) {
 			controller: 'MyCtrl2'
 		});
 		$routeProvider.otherwise({redirectTo: '/view1'});
+
 	}]);
 
 });

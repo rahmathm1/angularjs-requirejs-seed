@@ -7,7 +7,8 @@ define([
 	'directives',
 	'controllers',
 	'angularRoute',
-	], function (angular, filters, services, directives, controllers) {
+	'ngProgress'
+	], function (angular, filters, services, directives, controllers,ngProgress) {
 
 		// Declare app level module which depends on filters, and services
 		
@@ -16,6 +17,7 @@ define([
 			'myApp.filters',
 			'myApp.services',
 			'myApp.directives',
-			'myApp.controllers'
+			'myApp.controllers',
+			'ngProgress'
 		]);
 });
